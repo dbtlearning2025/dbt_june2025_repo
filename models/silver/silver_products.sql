@@ -6,4 +6,4 @@ SELECT
     ean,
     vendor,
     price
-FROM{{ ref('bronze_products') }}
+FROM {{ ref('bronze_products') }}
